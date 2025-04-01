@@ -34,6 +34,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Build Inventory Image'
         run: |
-          docker build . --tag ghcr.io/LucasJR13/tempai:latest
-          docker push ghcr.io/LucasJR13/tempai:latest
+          docker build . --tag ghcr.io/lucasjr13/tempai:latest
+          docker push ghcr.io/lucasjr13/tempai:latest
       
